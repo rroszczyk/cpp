@@ -1,6 +1,4 @@
 #include <iostream>
-#include <iomanip>
-#include <cmath>
 
 #ifdef _WIN32
 #include <Windows.h>
@@ -10,9 +8,11 @@
 
 using namespace std;
 
-int main( int argc, char* argv[] ){
-	
-	for( int i = 0; i < 5; i++ ){
+int main(int argc, char *argv[])
+{
+
+	for (int i = 0; i < 5; i++)
+	{
 		cout << "\ri = " << i << " | ";
 		cout.flush();
 		/*printf("\ri = %d | ", i);
